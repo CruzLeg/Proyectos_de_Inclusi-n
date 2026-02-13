@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galería de Obras – Taller de Artes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #572364;
+      color: #000000;
+    }
+    header {
+      background: #111;
+      color: #ffff00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      margin: 5px 0 0;
+      opacity: 0.8;
+    }
+    main {
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .image-placeholder {
+      background: linear-gradient(135deg, #ddd, #ccc);
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 14px;
+    }
+    .card-content {
+      padding: 15px;
+      flex: 1;
+    }
+    .card-content h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .card-content p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+    .price {
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .status {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      background: #e0e0e0;
+    }
+    .status.activo { background: #d4f4dd; color: #1e7a3a; }
+    .status.vendido { background: #ffd6d6; color: #8a1f1f; }
+    .status.regalo { background: #d6e4ff; color: #1f3c8a; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galería de Obras</h1>
+    <p>Taller de Artes · Bloque 2025-2</p>
+  </header>
+
+  <main>
+    <div class="grid">
+
+      <!-- COPIA Y PEGA ESTA TARJETA PARA AGREGAR MÁS OBRAS -->
+      <div class="card">
+        <img src="images/pétalos-del-corazón.png" alt="Pétalos del Corazón">
+        <div class="card-content">
+          <h3>Pétalos del Corazón</h3>
+          <p><strong>Historia:</strong> Allison tiene 7 años, es una niña muy linda, sonriente, le gusta dibujar, es muy cooperativa con sus compañeros, le gusta mucho la naturaleza; plasmo lo que le gusta del CRIT y a ella que es el corazón. Le gusta mucho la pintura sus colores favoritos son el rosa y el morado.</p> 
+          <p><strong>Autor:</strong> Allison Vianey Palafox Mendoza</p>
+          <p><strong>Tamaño:</strong> 30 cm x 25 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo con hoja de oro</p>
+          <p class="price">$1200.00</p>
+          <span class="status activo">Activo</span>
+
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/primera-flor-del-corazón.jpeg" alt="Primera Flor del Corazón">
+        <div class="card-content">
+          <h3>Primera Flor del Corazón</h3>
+<p><strong>Historia:</strong> Dylan tiene 9 años pinto este cuadro porque a su mamá le gustan las flores, es timido, pero en clase de arte de pierde esa timidez.</p>
+          <p><strong>Autor:</strong> Dylan Adonai Tovar Mendoza</p>
+          <p><strong>Tamaño:</strong> 25 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1200.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pinceladas-de-textura.jpeg" alt="Pinceladas de Textura">
+        <div class="card-content">
+          <h3>Pinceladas de Textura</h3>
+<p><strong>Historia:</strong> Johan tiene 9 años escogio los colores porque le gsutan mucho los colores del Teletón porque para el, el CRIT es su casa.</p>
+          <p><strong>Autor:</strong> Johan Eleazar García Hernández</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico y textura de papel sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/corazón-terco.jpeg" alt="Corazón Terco">
+        <div class="card-content">
+          <h3>Corazón Terco</h3>
+<p><strong>Historia:</strong> Ximena tiene 8 años es timida, casi no habla con compañeros, médicos, pero en su pintura; plasmo todo el amor que siente por el Teletón con colores vibrantes.</p>
+          <p><strong>Autor:</strong> Ximena Adolfo Alvarado</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico y textura de plastilina sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/tulipanes-de-amor.jpeg" alt="Tulipanes de Amor">
+        <div class="card-content">
+          <h3>Tulipanes de Amor</h3>
+<p><strong>Historia:</strong> Suri tiene 11 años decidio hacer los tulipanes en forma de corazón plasmando el amor que siente por su familia, uso esos tonos de rosa porque es su color favorito y los puntos alrededor expresan las luces de esperanza para ella.</p>
+          <p><strong>Autor:</strong> Suri Abigail Villa Candela</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico y textura de plastilina sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/latiendo-con-fuerza-somos-tercos.jpeg" alt="Latiendo con Fuerza Somos Tercos">
+        <div class="card-content">
+          <h3>Latiendo con Fuerza Somos Tercos</h3>
+<p><strong>Historia:</strong> Celeste tiene 11 años puso en conjunto todo el Teletón, terapias, médicos, familia, amigos, porque para ella es muy importante el CRIT.</p>
+          <p><strong>Autor:</strong> Celeste García Collazo</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/las-ramas-del-corazón.jpeg" alt="Las ramas del corazón">
+        <div class="card-content">
+          <h3>Las ramas del corazón</h3>
+<p><strong>Historia:</strong> Luis tiene 13 años tomo las ideas de un árbol lo quiso hacer en froma de corazón para demostrar el amor para la gente, los colores le gustaban por llamativos.</p>
+          <p><strong>Autor:</strong> Luis Alejandro Ruíz Ruíz</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/las-distintas-formas-de-amor.jpeg" alt="Las Distintas Formas de Amor">
+        <div class="card-content">
+          <h3>Las Distintas Formas de Amor</h3>
+<p><strong>Historia:</strong> Liam tiene 8 años plasmo a sus amigos del Teletón expresando el amor a tráves de sus personajes y los bautizo como "venaditos del Teletón".</p>
+          <p><strong>Autor:</strong> Liam Yareth de Anda Vieyra</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/mi-corazón-morado-es.jpeg" alt="Mi Corazón Morado es">
+        <div class="card-content">
+          <h3>Mi Corazón Morado es</h3>
+<p><strong>Historia:</strong> Pilar tiene 12 años decidio hacer dos corazones grandes representando a sus papás y cuatro más pequeños representando a sus demás familiares, con diferentes patrones en el interior, haciendo alución a sus personalidades, el morado lo escogio por ser su color favorito y porque es el color del CRIT.</p>
+          <p><strong>Autor:</strong> Pilar Sánchez Bravo</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/enamorándote.jpeg" alt="Enamorándote">
+        <div class="card-content">
+          <h3>Enamorándote</h3>
+<p><strong>Historia:</strong> Iker tiene 19 años pinto una maceta en forma de corazón rojo, indicando que todo lo que crece en su vida tiene una base de amor. Las flores que salen de ahí son sus logros personales está es una obra que celebra la vida y la capacidad de dar frutos a pesar de los desafios.</p>
+          <p><strong>Autor:</strong> Iker Gabriel Cabrera Islas</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/con-amor-dani.jpeg" alt="Con Amor, Dani">
+        <div class="card-content">
+          <h3>Con Amor, Dani</h3>
+<p><strong>Historia:</strong> Daniela tiene 7 años el corazón central está lleno de pequeños corazones plateados, rodeado de aros de colores, representa la inclusión, los aros asemejan a personas tomadas de las manos alrededor de un núcleo fuerte. Es una visión de unidad donde todos los colores y fromas tienen un lugar.</p>
+          <p><strong>Autor:</strong> Daniela Labastida Corzo</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico y textura de papel con glitter sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/corazones-para-papá.jpeg" alt="Corazones para Papá">
+        <div class="card-content">
+          <h3>Corazones para Papá</h3>
+<p><strong>Historia:</strong> Yazmin tiene 14 años plasmo sus sentimientos representando la necesidad de sentir afecto de manera física los corazones violetas dentro del marco rosa sugieren un amor que es profundo y real.</p>
+          <p><strong>Autor:</strong> Yazmin Cuevas Campos</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico y textura de papel sobre lienzo</p>
+          <p class="price">$1600.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/corazoncitos-del-teletón.jpeg" alt="Corazoncitos del Teletón">
+        <div class="card-content">
+          <h3>Corazoncitos del Teletón</h3>
+<p><strong>Historia:</strong> Noemi tiene 11 años está obra refleja abundancia al haber tantos corazones de distintos tamaños, está diciendo que el amor está en todas partes, representa a todas las personas que la cuidan y quieren; representando un mapa de su entorno seguro.</p>
+          <p><strong>Autor:</strong> Noemi Vázquez Gonzales</p>
+          <p><strong>Tamaño:</strong> 35.5 cm x 28 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1600.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/flores-del-corazón.jpeg" alt="Flores del Corazón">
+        <div class="card-content">
+          <h3>Flores del Corazón</h3>
+<p><strong>Historia:</strong> Onesimo tiene 11 años en está pintura el fondo en forma de ajedrez da una sensación de valía y brillo, el corazó violeta destaca como el centro de su mundo, se representa así mismo como un niño valioso y especial.</p>
+          <p><strong>Autor:</strong> Onésimo Amezcua Pedro</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/un-corazón-lleno-de-amor.jpeg" alt="Un Corazón Lleno de Amor">
+        <div class="card-content">
+          <h3>Un Corazón Lleno de Amor</h3>
+<p><strong>Historia:</strong> Ashly tiene 9 años plasmo una red de líneas vibrantes y caóticas el corazón blanco las une a todas dandole un significado de encontrar el camino, representando cómo, en momentos de confusión o sobrecarga sensorial, el afecto es el hilo conductor que le da sentido a su mundo.</p>
+          <p><strong>Autor:</strong> Ashly Amairani Acosta Antonio</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+      <img src="images/latiendo-con-un-mismo-corazón.jpeg" alt="Latiendo Con Un Mismo Corazón">
+        <div class="card-content">
+          <h3>Latiendo Con Un Mismo Corazón</h3>
+<p><strong>Historia:</strong> Jorge Luis tiene 9 años plasmo la tranquilidad y esperanza, los dos corazones blancos parecen actuar como guías o faros representando el deseo de paz interior y la sensación de libertad que siente al soñar.</p>
+          <p><strong>Autor:</strong> Jorge Luis Rivera Calderón</p>
+          <p><strong>Tamaño:</strong> 40 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$2000.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/los-valientes-corazones.jpeg" alt="Los Valientes Corazones">
+        <div class="card-content">
+          <h3>Los Valientes Corazones</h3>
+<p><strong>Historia:</strong> Gael tiene 8 años plasmo el orden del caos divide el lienzo en secciones ayudando a organizar el pensamiento. Cada color representa un estado de ánimo, en cada uno de ellos, sin importar la forma, siempre hay un corazón siendo la constancia de afecto en cualquier situación.</p>
+          <p><strong>Autor:</strong> Gael Jiménez Enriquez</p>
+          <p><strong>Tamaño:</strong> 40 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$2000.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/servicio-a-la-vida.jpeg" alt="Servicio a la Vida">
+        <div class="card-content">
+          <h3>Servicio a la Vida</h3>
+<p><strong>Historia:</strong> Camila tiene 8 años plasmo en el corazón verde central las vibraciones expandiendose haciendo alusión a la sanación y la naturaleza, los puntos alrededor sugieren energía representando su propia fuerza vital y cómo su alegría intenta alcanzar todo lo que rodea.</p>
+          <p><strong>Autor:</strong> Camila Rosmery Gómez Hernández</p>
+          <p><strong>Tamaño:</strong> 20 cm x 25 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1000.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+       <img src="images/el-corazón-de-los-colores.png" alt="El Corazón de los Colores">
+        <div class="card-content">
+          <h3>El Corazón de los Colores</h3>
+<p><strong>Historia:</strong> Diana tiene 10 años plasmo en está pintura una declaración de amor propio nos enseña que la discapacidad no es un límite sino es dejar una marca positiva y hermosa en los demás. El se ve así mismo como una fuente de afceto que toca la vida de quienes la rodean.</p>
+          <p><strong>Autor:</strong> Diana Lizbeth Dorantes Méndez</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/un-corazón-para-todos.jpeg" alt="Un Corazón para Todos">
+        <div class="card-content">
+          <h3>Un Corazón para Todos</h3>
+<p><strong>Historia:</strong> Regina tiene 10 años plasmo los corazones con pintura plateada sobre un fondo de colores sólidos sugiriendo brillo y persistencia las líneas verticales dan una sensación de estructura y camino dando el significado que paso a paso y con esfuerzo ella avanza con esperanza.</p>
+          <p><strong>Autor:</strong> Regina Mercado Fuentes</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/manitas-de-amor.jpeg" alt="Manitas de Amor">
+        <div class="card-content">
+          <h3>Manitas de Amor</h3>
+<p><strong>Historia:</strong> Cristofer tiene 11 años plasmo el amor que siente por su familia dibujando un corazón con las manos eligio el color azul porque es su favorito los circulos alrededor representan cada sueño que el tiene.</p>
+          <p><strong>Autor:</strong> Cristofer Yael Guerrero Luna</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/respirar-es-vida.png" alt="Respirar es Vida">
+        <div class="card-content">
+          <h3>Respirar es Vida</h3>
+<p><strong>Historia:</strong> Naomi tiene 13 años le gusta la terapia pulmonar, las flores escogio los colores porque el Teletón tiene morado, las flores representan al CRIT como su casa.</p>
+          <p><strong>Autor:</strong> Naomi Joseline Reyes Contreras</p>
+          <p><strong>Tamaño:</strong> 20 cm x 25 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1000.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/mi-plantita-de-amor.jpeg" alt="Mi Plantita de Amor">
+        <div class="card-content">
+          <h3>Mi Plantita de Amor</h3>
+<p><strong>Historia:</strong> Valeria tiene 8 años en la flor central tiene una textura marcada mientras el fondo es rígido y geométrico representando la adaptación como esencia suave y orgánica convive perfectamente con un mundo que a vecess puede parecer rigído o estructurado.</p>
+          <p><strong>Autor:</strong> Valeria Eleonor Ramírez Cano</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/colores-que-acarician.jpeg" alt="Colores que acarician">
+        <div class="card-content">
+          <h3>Colores que acarician</h3>
+<p><strong>Historia:</strong> Isaac tiene 19 años plasmo sus propias manos diciendo "¡AQUÍ ESTOY YO! los corazones blancos encima significan todo lo que toca y todo lo que hace nace desde el amor. Es una afirmación de su identidad y su impacto positivo en los démas.</p>
+          <p><strong>Autor:</strong> Isaac Gabriel Guerrero Silva</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/alegría.jpeg" alt="Alegría">
+        <div class="card-content">
+          <h3>Alegría</h3>
+<p><strong>Historia:</strong> Arya tiene 9 años y plasmo la expresión de felicidad en un personaje de manera contagiosa al estar junto a un gran corazón con trazos libres, simbolizando la compañia incondicional nos dice que no está sola y con quien comparte le tare alegría pura.</p>
+          <p><strong>Autor:</strong>Arya Elisa García Moreno</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/jugando-con-el-corazón.jpeg" alt="Jugando con el Corazón">
+        <div class="card-content">
+          <h3>Jugando con el Corazón</h3>
+<p><strong>Historia:</strong> Jonathan tiene 8 años plasmo superación y alegría representandose en un entorno de juego donde él es el protagonista y el protector reflejando sus pasiones, sus ganas de participar y la felicidad de sentirse capaz y exitoso.</p>
+          <p><strong>Autor:</strong> Jonathan Valentín Contreras Morales</p>
+          <p><strong>Tamaño:</strong> 30 cm x 40 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1800.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/peces-koirazón.jpeg" alt="Peces koicorazón">
+        <div class="card-content">
+          <h3>Peces koicorazón</h3>
+<p><strong>Historia:</strong> Juanjo tiene 8 años le gustan los colores y los peces, le gustaron los colores claros y fuertes, representan un dibujo bonito, amor por la pintura y porque es su primer pintura.</p>
+          <p><strong>Autor:</strong> Juan José Colin Reyes</p>
+          <p><strong>Tamaño:</strong> 30 cm x 30 cm</p>
+          <p><strong>Técnica:</strong> Acrílico sobre lienzo</p>
+          <p class="price">$1500.00</p>
+          <span class="status activo">Activo</span>
+<a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfEKtWx6hV8Nyew0vYLz5srx66JYBjQtPUb3O05eA_EgFNsvg/viewform?usp=dialog"
+  target="_blank"
+  style="
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:13px;
+  ">
+  Me interesa
+</a>
+
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+  <footer>
+    © 2025 · Galería Taller de Artes
+  </footer>
+</body>
+</html>
